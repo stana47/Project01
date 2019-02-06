@@ -1,4 +1,4 @@
-package Project00;
+ package Project00;
 
 import java.util.ArrayList;
 import Project00.TeamCool;
@@ -28,7 +28,8 @@ public class Course
     public void createTeams()
     {
         teams.add(new TeamCool("TeamCool"));
-        teams.add(new TeamNice("TeamNice"));
+        teams.add(new StarbucksTeam("StarbucksTeam"));
+
         // create each new team and add to team list;
         // Repository owner will do this.
     }
