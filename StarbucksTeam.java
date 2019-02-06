@@ -12,6 +12,6 @@ public class StarbucksTeam  extends Team {
     public void createTeamMembers()
     {
         members.add(new Alramyan("Alramyan"));
-
+        members.add(new KirkpatrickMember("Riley Kirkpatrick"));
     }
 }
